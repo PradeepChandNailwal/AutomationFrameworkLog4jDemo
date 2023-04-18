@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13672" started-at="2023-04-02T07:10:14Z" finished-at="2023-04-02T07:10:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13672" started-at="2023-04-02T07:10:14Z" finished-at="2023-04-02T07:10:28Z">
+      <class name="com.org.tests.LeftMenuTests">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.org.tests.LeftMenuTests@40e6dfe1]" name="openBrowser" is-config="true" duration-ms="2620" started-at="2023-04-02T07:10:23Z" finished-at="2023-04-02T07:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="switchToLeftmenuFrame()[pri:0, instance:com.org.tests.LeftMenuTests@40e6dfe1]" name="switchToLeftmenuFrame" is-config="true" duration-ms="95" started-at="2023-04-02T07:10:25Z" finished-at="2023-04-02T07:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToLeftmenuFrame -->
+        <test-method status="PASS" signature="validateSeleniumLink()[pri:0, instance:com.org.tests.LeftMenuTests@40e6dfe1]" name="validateSeleniumLink" duration-ms="251" started-at="2023-04-02T07:10:25Z" finished-at="2023-04-02T07:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSeleniumLink -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.tests.LeftMenuTests@40e6dfe1]" name="closeBrowser" is-config="true" duration-ms="2148" started-at="2023-04-02T07:10:26Z" finished-at="2023-04-02T07:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.org.tests.LeftMenuTests -->
+      <class name="com.org.tests.UserRegistrationTests">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="setUpReport" is-config="true" duration-ms="139" started-at="2023-04-02T07:10:14Z" finished-at="2023-04-02T07:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="openBrowser" is-config="true" duration-ms="3078" started-at="2023-04-02T07:10:14Z" finished-at="2023-04-02T07:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="switchToUserRegistrationFrame()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="switchToUserRegistrationFrame" is-config="true" duration-ms="83" started-at="2023-04-02T07:10:17Z" finished-at="2023-04-02T07:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToUserRegistrationFrame -->
+        <test-method status="PASS" signature="validateAge()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="validateAge" duration-ms="1237" started-at="2023-04-02T07:10:17Z" finished-at="2023-04-02T07:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAge -->
+        <test-method status="PASS" signature="switchToUserRegistrationFrame()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="switchToUserRegistrationFrame" is-config="true" duration-ms="53" started-at="2023-04-02T07:10:18Z" finished-at="2023-04-02T07:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToUserRegistrationFrame -->
+        <test-method status="PASS" signature="validateCompleteName()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="validateCompleteName" duration-ms="429" started-at="2023-04-02T07:10:18Z" finished-at="2023-04-02T07:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCompleteName -->
+        <test-method status="PASS" signature="switchToUserRegistrationFrame()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="switchToUserRegistrationFrame" is-config="true" duration-ms="82" started-at="2023-04-02T07:10:19Z" finished-at="2023-04-02T07:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToUserRegistrationFrame -->
+        <test-method status="PASS" signature="validateLastName()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="validateLastName" duration-ms="1275" started-at="2023-04-02T07:10:19Z" finished-at="2023-04-02T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLastName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="closeBrowser" is-config="true" duration-ms="2286" started-at="2023-04-02T07:10:20Z" finished-at="2023-04-02T07:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="saveReport()[pri:0, instance:com.org.tests.UserRegistrationTests@2890c451]" name="saveReport" is-config="true" duration-ms="796" started-at="2023-04-02T07:10:28Z" finished-at="2023-04-02T07:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+      </class> <!-- com.org.tests.UserRegistrationTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
